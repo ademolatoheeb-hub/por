@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio project For Group One</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">GROUP ONE</div>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Project</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle" id="menu-toggle"></div>
+      </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1>Hello, this is <span class="highlight">GROUP ONE PROJECT</span></h1>
+          <p>We are a Frontend Developer passionate about clean and modern web design.</p>
+          <button class="btn">View our work.</button>
+        </div>
+        <div class="hero-image">
+          <img src="./images/team.jpeg" alt="Developer at work">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+     <section class="about" id="about">
+      <div class="about-content">
+        <div class="about-image">
+          <img src="./images/about.jpeg" alt="About me">
+        </div>
+        <div class="about-text">
+          <h2>About Me</h2>
+          <p>We are a web developers who loves transforming ideas into digital experiences. I enjoy learning new technologies and improving user interfaces with creativity and precision</p>
+          <p>When we are not coding, we exploring design trends, reading about startups, or teaching others how to code.</p>
+        </div>
+      </div>
+     </section>
+
+     <!-- SKILL SECTION -->
+      <section class="skills" id="skills">
+        <h2>Skills</h2>
+        <div class="skills-container">
+          <div class="skills-card">HTML</div>
+          <div class="skills-card">CSS</div>
+          <div class="skills-card">Javascript</div>
+          <div class="skills-card">Git & Github</div>
+        </div>
+      </section>
+
+      <!-- PROJECT SECTION -->
+       <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-container">
+          <div class="project-card">
+            <img src="./images/page.jpeg" alt="card">
+            <h2>Landing Page</h2>
+            <p>Responsive landing page built with HTML and CSS.</p>
+          </div>
+          <div class="project-card">
+            <img src="./images/quiz.jpeg" alt="card">
+            <h3>Quiz App</h3>
+            <p>Simple quiz app using Javascript for interactivity.</p>
+          </div>
+        </div>
+       </section>
+
+       <!-- CONTACT SECTION -->
+        <section class="contact" id="contact">
+          <h2>Contact Us</h2>
+          <form id="contact-form">
+            <input type="text" id="name" placeholder="Your name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </section>
+
+        <!-- FOOTER -->
+         <footer>
+          <p>&copy; 2025 SEPT cohort. All rights Reserved</p>
+         </footer>
+
+         <script src="script.js">
+
+         </script>
+</body>
+</html>
